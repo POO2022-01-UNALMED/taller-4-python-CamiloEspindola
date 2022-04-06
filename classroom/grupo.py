@@ -1,16 +1,16 @@
 
 
-from classroom.asignatura import Asignatura
+#from classroom.asignatura import Asignatura
 from classroom.asignatura import Asignatura
 
 
 class Grupo:
 
     #grado = None
-    grado = "grado 12"
+    grado = "Grado 12"
 
     #def __init__(self, grupo="grupo ordinado", asignaturas=None, estudiantes=None):
-    def __init__(self, grupo="Grupo de estudiantes: ", asignaturas=None, estudiantes=None):
+    def __init__(self, grupo="grupo predeterminado ", asignaturas=None, estudiantes=None):
         self._grupo = grupo
         self._asignaturas = asignaturas
         self.listadoAlumnos = estudiantes
