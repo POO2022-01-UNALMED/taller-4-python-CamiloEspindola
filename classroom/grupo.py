@@ -6,6 +6,7 @@ from classroom.asignatura import Asignatura
 
 class Grupo:
 
+
     #grado = None
     grado = "Grado 12"
 
