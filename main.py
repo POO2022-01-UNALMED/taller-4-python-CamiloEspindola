@@ -5,7 +5,7 @@ if __name__ == "__main__":
     asignatura1 = Asignatura("Matematicas")
     asignatura2 = Asignatura("Castellano", "Salon 201")
     grupo1 = Grupo()
-
+    
     print(asignatura1)
     print(grupo1)
     print(grupo1.grado)
